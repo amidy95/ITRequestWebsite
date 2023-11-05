@@ -32,7 +32,7 @@
                                     </label>
                                 </div>
                                     <!-- Submit button to sign in  -->
-                                    <button class="btn btn-outline-light btn-lg download-button signinbtn"
+                                    <button class="btn btn-outline-primary btn-lg download-button signinbtn"
                                         type="submit" name="sign_in">Sign in</button>
                                         <br><br>
                                         

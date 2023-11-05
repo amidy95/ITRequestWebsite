@@ -32,29 +32,38 @@
         
 
                             <!-- Signup form -->
-                            <div class="signup">
+                            <div style="overflow-y: auto; max-height: 80vh;">
                                 <form class="form-signin" style="background-color: white; color: black;" action="signup.php" method="post">
                                     <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+                                    <div class="row">
 
                                             <!-- First Name -->
-                                            <input type="text" name="first_name" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
-                                            <br><br>
+                                            <div class="col">
+                                                <input type="text" name="first_name" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
+                                            </div>
 
                                             <!-- Last Name -->
-                                            <input type="text" name="last_name" id="inputLastName" class="form-control" placeholder="Last Name" required>
-                                            <br><br>
+                                            <div class="col">
+                                                <input type="text" name="last_name" id="inputLastName" class="form-control" placeholder="Last Name" required>
+                                            </div>
+                                            </div>
+                                            <br>
 
                                             <!-- Employee ID -->
                                             <input type="text" name="employee_id" id="inputEmployeeID#" class="form-control" placeholder="Employee ID #" required>
-                                            <br><br>
+                                            <br>
 
                                             <!-- Email Address -->
                                             <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email Address" required>
-                                            <br><br>
+                                            <br>
 
                                             <!-- Submit button to sign up -->
-                                            <button class="btn btn-outline-light btn-lg download-button signinbtn" type="submit" name="sign_up">Sign Up</button>
+                                            <button class="btn btn-outline-primary btn-lg download-button signinbtn" type="submit" name="sign_up">Sign Up</button>
                                             <br><br>
+
+                                            <!-- Back to Sign In button -->
+                                            <button class="btn btn-outline-primary btn-lg" type="button" onclick="location.href='User_login.php'">Back to Sign In</button>
+                                            <br>
 
                                         <p class="mt-5 mb-3 text-muted">&copy; IT Request Form 2023</p>
                                     </form>

@@ -23,9 +23,19 @@
                             <input type="text" name="username" id="inputEmployeeID#" class="form-control" placeholder="Employee ID #" required autofocus>
                             <br><br>
 
-                            <!-- Submit button to sign in -->
-                            <button class="btn btn-outline-light btn-lg download-button signinbtn" type="submit" name="sign_in">Sign in</button>
-                            <br><br>
+                            <div class="row">
+
+                              <div class="col">
+                                <!-- Submit button to sign in -->
+                                <button class="btn btn-outline-primary btn-lg download-button signinbtn" type="submit" name="sign_in">Sign in</button>
+                              </div>
+
+                              <div class="col">
+                                <!-- Sign Up button -->
+                                <button class="btn btn-outline-primary btn-lg" type="button" onclick="location.href='User_Signup.php'">Sign Up</button>
+                              </div>
+
+                            </div>
 
                             <p class="mt-5 mb-3 text-muted">&copy; IT Request Form 2023</p>
                             </form>
