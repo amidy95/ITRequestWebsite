@@ -34,14 +34,14 @@ if(isset($_POST['sign_in']))
         $_SESSION['user_last_name'] = $db_last_name;
 
         // Redirect to the user's main page after successful login.
-        header("Location: user_mainpage.php");
+        header("Location: ../User_MainPage/User_MainPage.php");
         exit();
 
     } 
     else 
     {
         // Employee ID not found. Display an error message.
-        echo "Employee ID Not Found.";
+        echo "Incorrect Employee ID #.";
     }
 }
 

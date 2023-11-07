@@ -1,4 +1,4 @@
-<?php session_start(); // sett up session.?> 
+<?php session_start(); // set up session.?> 
 <?php
 
 //CANCELLING THE SESSIONS SETTING THE DATA TO NULL AND THEN REDIRECT TO 
@@ -12,6 +12,6 @@ $_SESSION['city'] = null;
 $_SESSION['state']  = null;
 $_SESSION['zip_code']  = null;
 $_SESSION['user_type']  = null;
-header("Location: ../index.php");
+header("Location: ../UserLogin/User_login.php");
 
 ?>
